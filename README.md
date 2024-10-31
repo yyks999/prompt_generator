@@ -1,5 +1,3 @@
- I'll translate this README into English while preserving the formatting and emojis.
-
 # 💻🤖 Welcome to 302.AI's AI Prompt Expert! 🚀✨
 
 [Chinese](README_zh.md) | [English](README.md) | [Japanese](README_ja.md)
