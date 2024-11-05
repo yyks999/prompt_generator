@@ -44,6 +44,8 @@ function App() {
   const [structureType, setStructureType] = useState("CO-STAR");
   const [tipsContent, setTipsContent] = useState(tipsContentDefault);
 
+  const showBrand = import.meta.env.VITE_APP_SHOW_BRAND === "true";
+
   useEffect(() => {
     const type = window.localStorage.getItem('structureType');
     const tips = window.localStorage.getItem('structureTips');
@@ -694,34 +696,34 @@ function App() {
   }
 
   return (
-    <div className = "absolute top-0 left-0 right-0 flex flex-col min-h-full bg-[#f5f5f5]" >
+    <div className="absolute top-0 left-0 right-0 flex flex-col min-h-full bg-[#f5f5f5]" >
       {
-      Boolean(errComp) && (
-        <div
-          className="fixed top-3 py-2 px-3 flex justify-center items-center text-sm gap-2 error-message box-border"
-          style={{
-            border: "0.8px solid #faad14",
-            borderRadius: "6px",
-            backgroundColor: "rgb(255, 251, 230)",
-          }}
-        >
-          <svg
-            viewBox="64 64 896 896"
-            focusable="false"
-            data-icon="exclamation-circle"
-            width="1em"
-            height="1em"
-            fill="rgb(250, 173, 20)"
-            aria-hidden="true"
+        Boolean(errComp) && (
+          <div
+            className="fixed top-3 py-2 px-3 flex justify-center items-center text-sm gap-2 error-message box-border"
+            style={{
+              border: "0.8px solid #faad14",
+              borderRadius: "6px",
+              backgroundColor: "rgb(255, 251, 230)",
+            }}
           >
-            <path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm-32 232c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v272c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8V296zm32 440a48.01 48.01 0 010-96 48.01 48.01 0 010 96z"></path>
-          </svg>
-          <div dangerouslySetInnerHTML={{ __html: errComp }}></div>
-        </div>
-      )
-    }
-      < div className = "flex justify-end p-2 box-border" >
-    <div className='flex absolute right-10 top-2'><LanguagePopover /></div>
+            <svg
+              viewBox="64 64 896 896"
+              focusable="false"
+              data-icon="exclamation-circle"
+              width="1em"
+              height="1em"
+              fill="rgb(250, 173, 20)"
+              aria-hidden="true"
+            >
+              <path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm-32 232c0-4.4 3.6-8 8-8h48c4.4 0 8 3.6 8 8v272c0 4.4-3.6 8-8 8h-48c-4.4 0-8-3.6-8-8V296zm32 440a48.01 48.01 0 010-96 48.01 48.01 0 010 96z"></path>
+            </svg>
+            <div dangerouslySetInnerHTML={{ __html: errComp }}></div>
+          </div>
+        )
+      }
+      < div className="flex justify-end p-2 box-border" >
+        <div className='flex absolute right-10 top-2'><LanguagePopover /></div>
       </div >
       <Header language={global.language} />
       <div className="relative">
@@ -989,7 +991,7 @@ function App() {
         </div>
       </div>
       <ToastContainer />
-      <PoweredBy language={global.language} />
+      {showBrand && <PoweredBy language={global.language} />}
     </div >
   );
 }

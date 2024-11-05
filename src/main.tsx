@@ -9,11 +9,13 @@ import { Theme } from "@radix-ui/themes";
 import App from "./App.tsx";
 import "./index.css";
 import '@radix-ui/themes/styles.css';
+import ScriptLoader from "./ScriptLoader.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <Provider store={store}>
     <Theme>
       <React.StrictMode>
+        <ScriptLoader />
         <Router>
           <Routes>
             <Route path="/" element={<App />} />
