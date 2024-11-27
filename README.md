@@ -7,7 +7,7 @@ You can directly log in to 302.AI to use the online version with zero code and z
 Or modify this project according to your needs, input 302.AI's API KEY, and deploy it yourself.
 
 ## ✨ About 302.AI ✨
-[302.AI](https://302.ai) is a pay-as-you-go AI application platform that solves the last-mile problem of AI implementation for users.
+[302.AI](https://302.ai/) is a pay-as-you-go AI application platform that solves the last-mile problem of AI implementation for users.
 1. 🧠 Integrates the latest and most comprehensive AI capabilities and brands, including but not limited to language models, image models, voice models, and video models.
 2. 🚀 Develops deep applications based on foundation models - we develop real AI products, not just simple chatbots
 3. 💰 Zero monthly fee, all features are pay-per-use, fully open, achieving truly low barriers with high potential.
