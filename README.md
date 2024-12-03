@@ -12,6 +12,7 @@ You can directly log in to 302.AI to use the online version with zero code and z
 Or modify this project according to your needs, input 302.AI's API KEY, and deploy it yourself.
 
 ## Interface Preview
+Enter a simple description, and the AI will generate high-quality prompts. There are multiple structures available for selection. It supports online modification and testing of prompts.
 ![Interface Preview](docs/提示专家英.png)
 
 
