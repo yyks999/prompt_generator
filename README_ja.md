@@ -50,4 +50,4 @@ AIプロンプトエキスパートで、あなたのアイデアを完璧なAI�
 5. ビルドとデプロイ `docker build -t coder-generator . && docker run -p 3000:3000 coder-generator`
 
 ## インターフェースプレビュー
-![インターフェースプレビュー](docs/preview.jpg)
+![インターフェースプレビュー](docs/提示专家2.png)
