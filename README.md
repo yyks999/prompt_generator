@@ -50,4 +50,4 @@ Through AI Prompt Expert! - Transform your ideas into perfect AI instructions! �
 5. Build and deploy `docker build -t coder-generator . && docker run -p 3000:3000 coder-generator`
 
 ## Interface Preview
-![Interface Preview](docs/preview.jpg)
+![Interface Preview](docs/提示专家英.png)
