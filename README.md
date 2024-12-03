@@ -1,41 +1,51 @@
-# 💻🤖 Welcome to 302.AI's AI Prompt Expert! 🚀✨
+# <p align="center">🤖 AI Prompt Expert 🚀✨</p>
 
-[Chinese](README_zh.md) | [English](README.md) | [Japanese](README_ja.md)
+<p align="center">The AI prompt expert rewrites users' simple prompts into high-quality prompts in the structures of CO-STAR, CRISPE, QStar (Q*), the variational method, Meta Prompting, Chain of Thought (CoT), Microsoft's optimization method and RISE. Moreover, it allows for online modification and testing. It also provides optimization for prompts used for generating images from text and can convert them into high-quality English prompts with just one click.</p>
+
+<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
+
+<p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
+
 
 The open-source version of [AI Prompt Expert](https://302.ai/tools/prompter/) from [302.AI](https://302.ai).
 You can directly log in to 302.AI to use the online version with zero code and zero configuration.
 Or modify this project according to your needs, input 302.AI's API KEY, and deploy it yourself.
 
-## ✨ About 302.AI ✨
-[302.AI](https://302.ai/) is a pay-as-you-go AI application platform that solves the last-mile problem of AI implementation for users.
-1. 🧠 Integrates the latest and most comprehensive AI capabilities and brands, including but not limited to language models, image models, voice models, and video models.
-2. 🚀 Develops deep applications based on foundation models - we develop real AI products, not just simple chatbots
-3. 💰 Zero monthly fee, all features are pay-per-use, fully open, achieving truly low barriers with high potential.
-4. 🛠 Powerful management backend for teams and SMEs - one person manages, many people use.
-5. 🔗 All AI capabilities provide API access, all tools are open source and customizable (in progress).
-6. 💡 Strong development team, launching 2-3 new applications weekly, products updated daily. Developers interested in joining are welcome to contact us.
+## Interface Preview
+![Interface Preview](docs/提示专家英.png)
+
 
 ## Project Features
-1. 🛠️ Supports 12 different prompt optimization solutions, provides custom optimization framework capabilities, multi-language interface support.
-2. 🎯 Classic Optimization Frameworks
-    - 2.1. CO-STAR structure: Systematic prompt organization method
-    - 2.2. CRISPE structure: Comprehensive content generation framework
-    - 2.3. Chain of Thought (CoT): Improve output quality through thought chains
-3. 🎯 Professional Creation Optimization
-    - 3.1. DRAW: Professional AI drawing prompt optimization
-    - 3.2. RISE: Structured prompt enhancement system
-    - 3.3. O1-STYLE: Stylized creation prompt solution
-4. 🎯 Advanced Optimization Techniques
-    - 4.1. Meta Prompting: Meta prompt optimization
-    - 4.2. VARI: Variational optimization
-    - 4.3. Q*: Intelligent prompt optimization algorithm
-5. 🎯 Mainstream AI Platform Adaptation
-    - 5.1. OpenAI optimization: Adapted for GPT series models
-    - 5.2. Claude optimization: Adapted for Anthropic models
-    - 5.3. Microsoft optimization: Adapted for Azure AI services
-6. 🌐 Complete Internationalization: Supports Chinese, English, and Japanese interface switching.
+### 🛠️ Multiple optimization solutions
+ It supports 12 different prompt optimization solutions and provides the ability to customize the optimization framework.
+### 🎯 Classic Optimization Frameworks
+- CO-STAR structure: Systematic prompt organization method
+- CRISPE structure: Comprehensive content generation framework
+- Chain of Thought (CoT): Improve output quality through thought chains
+### 🎯 Professional Creation Optimization
+- DRAW: Professional AI drawing prompt optimization
+- RISE: Structured prompt enhancement system
+- O1-STYLE: Stylized creation prompt solution
+### 🎯 Advanced Optimization Techniques
+- Meta Prompting: Meta prompt optimization
+- VARI: Variational optimization
+- Q*: Intelligent prompt optimization algorithm
+### 🎯 Mainstream AI Platform Adaptation
+- OpenAI optimization: Adapted for GPT series models
+- Claude optimization: Adapted for Anthropic models
+- Microsoft optimization: Adapted for Azure AI services
+### 🌍 Multi-language Support
+- Chinese Interface
+- English Interface
+- Japanese Interface
+
 
 Through AI Prompt Expert! - Transform your ideas into perfect AI instructions! 🎉💻 Let's explore the new world of AI-driven code together! 🌟🚀
+
+## 🚩 Future Update Plans 
+- [ ] Industry Segmentation Prompt Optimization
+- [ ] Update Emerging Models
+- [ ] Add Conversion Functions for Languages such as French, German, Spanish
 
 ## Tech Stack
 - React
@@ -49,5 +59,12 @@ Through AI Prompt Expert! - Transform your ideas into perfect AI instructions! �
 4. Run project `npm run dev`
 5. Build and deploy `docker build -t coder-generator . && docker run -p 3000:3000 coder-generator`
 
-## Interface Preview
-![Interface Preview](docs/提示专家英.png)
+
+## ✨ About 302.AI ✨
+[302.AI](https://302.ai/) is a pay-as-you-go AI application platform that solves the last-mile problem of AI implementation for users.
+1. 🧠 Integrates the latest and most comprehensive AI capabilities and brands, including but not limited to language models, image models, voice models, and video models.
+2. 🚀 Develops deep applications based on foundation models - we develop real AI products, not just simple chatbots
+3. 💰 Zero monthly fee, all features are pay-per-use, fully open, achieving truly low barriers with high potential.
+4. 🛠 Powerful management backend for teams and SMEs - one person manages, many people use.
+5. 🔗 All AI capabilities provide API access, all tools are open source and customizable (in progress).
+6. 💡 Strong development team, launching 2-3 new applications weekly, products updated daily. Developers interested in joining are welcome to contact us.
