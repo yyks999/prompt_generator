@@ -7,6 +7,7 @@
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
+![インターフェースプレビュー](docs/提示词专家jp.png)
 
 これは[302.AI](https://302.ai)の[AIプロンプトエキスパート](https://302.ai/tools/prompter/)のオープンソース版です。
 302.AIに直接ログインして、コーディング不要で設定不要のオンラインバージョンをご利用いただけます。
