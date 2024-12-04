@@ -6,6 +6,7 @@
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
+![Interface Preview](docs/提示词专家en.png)
 
 The open-source version of [AI Prompt Expert](https://302.ai/tools/prompter/) from [302.AI](https://302.ai).
 You can directly log in to 302.AI to use the online version with zero code and zero configuration.
