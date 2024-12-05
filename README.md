@@ -2,9 +2,9 @@
 
 <p align="center">The AI prompt expert rewrites users' simple prompts into high-quality prompts in the structures of CO-STAR, CRISPE, QStar (Q*), the variational method, Meta Prompting, Chain of Thought (CoT), Microsoft's optimization method and RISE. Moreover, it allows for online modification and testing. It also provides optimization for prompts used for generating images from text and can convert them into high-quality English prompts with just one click.</p>
 
-<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
+<p align="center"><a href="https://302.ai/en/tools/prompter/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
 
-<p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
+<p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
 ![Interface Preview](docs/提示词专家en.png)
 
